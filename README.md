@@ -10,7 +10,7 @@ csgo/addons/counterstrikesharp/plugins/vMarker
 ```
 
 ## Usage
-For creating the marker fast
+To quickly create a marker, bind a key to the command:
 ```
 bind <key> css_vmarker;
 ```
