@@ -31,6 +31,7 @@ namespace vMarker
             vMarkerConfig.LoadConfig();
             Config = vMarkerConfig.Config ?? new Cfg { Settings = new xSettings() };
             helper = new helper();
+            TimeToCleanUp = Config.Settings.TimeToCleanUp;
 
             if (Config.Settings == null)
             {
