@@ -1,0 +1,5 @@
+[Settings]
+MarkerCommands = ["css_vmarker", "vmarker"]
+MarkerPermissions = ["@css/root", "@jailbreak/warden"]
+TimeToCleanUp = 30.0
+UseMarkerType = "ping" # ping or command
